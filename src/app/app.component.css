@@ -1,0 +1,39 @@
+.comps-container {
+  margin: 0 auto;
+  width: 850px;
+  display: grid;
+  grid-template-areas:
+    "title title title title"
+    "menu-bar menu-bar menu-bar menu-bar"
+    "b-card b-card s-card-container s-card-container"
+    "b-card b-card s-card-container s-card-container"
+    "b-card b-card s-card-container s-card-container"
+  ;
+  justify-items: center;
+}
+
+.title {
+  grid-area: title;
+}
+
+.menu-bar {
+  grid-area: menu-bar;
+}
+
+.b-card {
+  grid-area: b-card;
+}
+
+.s-card-container {
+  grid-area: s-card-container;
+  width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.s-card {
+  grid-area: s-card;
+}
+

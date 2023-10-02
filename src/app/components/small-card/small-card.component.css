@@ -1,0 +1,17 @@
+.s-card-group {
+  width: 180px;
+  margin: 15px;
+}
+
+.s-card-img {
+  height: 90px;
+  width: 180px;
+  border-radius: 10px;
+  background-image: url("src/assets/images/coding.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+h5 {
+  margin: 5px 0 0;
+}

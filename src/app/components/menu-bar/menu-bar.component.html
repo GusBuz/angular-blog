@@ -1,1 +1,6 @@
-<p>menu-bar works!</p>
+<div>
+  <ul>
+    <li *ngFor="let i of menuItems; let lastItem = last;">{{ i }}<span *ngIf="!lastItem">/</span></li>
+  </ul>
+  <hr>
+</div>

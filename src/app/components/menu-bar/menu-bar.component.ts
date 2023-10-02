@@ -6,6 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-bar.component.css']
 })
 export class MenuBarComponent implements OnInit {
+  menuItems:string[] = [
+    "Engineering",
+    "Product",
+    "Security",
+    "Open Source",
+    "Enterprise",
+    "Policy",
+    "Education",
+    "Community",
+    "Company"
+  ];
 
   constructor() { }
 
