@@ -1,0 +1,28 @@
+.content-container {
+  margin: 0 auto;
+  width: 830px;
+  display: grid;
+  justify-items: center;
+}
+
+.content-img {
+  height: 200px;
+  width: 830px;
+  border-radius: 7px;
+  background-size: cover;
+  background-position: center center;
+  margin: 15px 0;
+}
+
+h1 {
+  margin: 0 15px;
+}
+
+p {
+  margin: 15px;
+  text-align: justify;
+}
+
+a {
+  margin: 0 0 15px;
+}

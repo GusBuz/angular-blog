@@ -6,15 +6,16 @@ div {
 h1 {
   font-weight: 800;
   font-size: 170px;
-  margin: 0;
+  margin: 0 0 0 -15px;
   text-align: center;
   letter-spacing: -10px;
   transform: scale(1, 1.05);
   line-height: 1;
+  user-select: none
 }
 
 hr {
-  margin: 15px 0 0 15px;
+  margin: 15px 0 0 ;
   border: 2px solid;
   width: 850px;
 }

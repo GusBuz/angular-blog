@@ -1,6 +1,8 @@
-<div class="s-card-group">
-  <div class="s-card-img"></div>
-  <div class="s-card-title">
-    <h5>How to optimize your code reviews</h5>
+<a [routerLink]="['content', Id]">
+  <div class="s-card-group">
+    <div class="s-card-img" [ngStyle]="{ 'background-image': 'url(' + imageCover + ')' }"></div>
+    <div class="s-card-title">
+      <h5>{{ cardTitle }}</h5>
+    </div>
   </div>
-</div>
+</a>
