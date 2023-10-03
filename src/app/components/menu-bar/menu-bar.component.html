@@ -1,6 +1,6 @@
 <div>
   <ul>
-    <li *ngFor="let i of menuItems; let lastItem = last;">{{ i }}<span *ngIf="!lastItem">/</span></li>
+    <li *ngFor="let i of menuItems; let lastItem = last;"><a href="#">{{ i }}</a><span *ngIf="!lastItem">/</span></li>
   </ul>
   <hr>
 </div>
